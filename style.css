@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body ::selection {
+    background-color: #fec260;
+}
+
+.container-fluid {
+    background-color: #f8ecde;
+    height: 100vh;
+}
+
+.bookmarker {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #352e28;
+}
+
+
+.title span {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    background-image: linear-gradient(to right, #3fa55c, #b0ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+.f-icone {
+    color: #3fa55c;
+
+}
+
+.sec-icone {
+    color: #b0ac49;
+}
+
+label {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212529;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bookmark-content::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    top:-10% ;
+    border: dotted 1px #3d362d;
+   
+
+}
+.bookmark-content::before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom:-10% ;
+    border: dotted 1px #3d362d;
+      
+
+}
+
+.sec-row,.third-row {
+    background-color: white;
+}
+
+.sec-row p {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212529;
+}
+
+.btn-visit {
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-hover-bg: #8a9e23;
+}
+
+.fa-eye {
+    color: white;
+}
+
+.btn-visit,.btn-delete{
+    font-family: "PT Sans Caption", sans-serif;   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    left: 40%;
+}
+
+.btn-visit:hover {
+    color: white;
+
+}
+.btn-delete:hover {
+    color: white;
+
+}
+
+.btn-delete {
+    --bs-btn-bg: #eb1d36;
+    --bs-btn-hover-bg: #d30820;
+}
+
+.red {
+    background-color: #f05f5c;
+    width: 20px;
+    height: 20px;
+}
+.yellow {
+    background-color: #ffbe2e;
+    width: 20px;
+    height: 20px;
+}
+.green {
+    background-color: #4db748;
+    width: 20px;
+    height: 20px;
+}
+
+.fa-regular {
+    color: #bc4120;
+}
+
+.hint{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    color: #352e28;
+}
+
+.rules {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #212529;
+}
+
+.alert {
+    width: 500px;
+    height: 210px;
+    background-color: white;
+    top: 38%;
+    left: 35%;
+    z-index: 11111111;
+    box-shadow: 1px 1px 25px gray;
+}
+
